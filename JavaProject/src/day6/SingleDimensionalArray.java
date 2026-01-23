@@ -36,7 +36,7 @@ public class SingleDimensionalArray {
 		//Reading multiple values from a array
 		//normal for loop
 		for(int i=0;i<a.length;i++) {       //a.length=5   i<5   or i<=4   or i<a.length  or i<=a.length-1
-			System.err.println(a[i]);
+			System.out.println(a[i]);
 		}
 		
 		
