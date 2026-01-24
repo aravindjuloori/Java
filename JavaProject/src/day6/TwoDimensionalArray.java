@@ -20,10 +20,9 @@ public class TwoDimensionalArray {
 		
 		//Approach 1
 		
-		int a1[][]= { {100,200},
-					  {300,400},
-					  {500,600}
-					 };
+		/*
+		 * int a1[][]= { {100,200}, {300,400}, {500,600} };
+		 */
 		//find the length of rows
 		
 		System.out.println("The number of rows: "+a.length);
@@ -46,6 +45,7 @@ public class TwoDimensionalArray {
 			
 		}
 		
+		System.out.println("******************************************");
 		//enhanced for loop
 		
 		for(int arr[]:a) {

@@ -11,7 +11,8 @@ public class SumOfElementsArray {
 			
 			sum=sum+a[i];
 		}
-		System.out.println(sum);
+		System.out.println("Total sum value is : "+sum);
+		
 		
 		
 
