@@ -10,9 +10,11 @@ public class TakingMultipleInputsfromKeyboard {
 		Scanner sc=new Scanner(System.in);
 		
 		/*Ex1:
-		 * System.out.println("Please Enter first number:"); int num1=sc.nextInt();
+		 * System.out.println("Please Enter first number:"); 
+		 * int num1=sc.nextInt();
 		 * 
-		 * System.out.println("Please Enter second number:"); int num2=sc.nextInt();
+		 * System.out.println("Please Enter second number:"); 
+		 * int num2=sc.nextInt();
 		 * 
 		 * System.out.println("Addition of two numbers is: " +(num1+num2));
 		 * 
@@ -24,7 +26,7 @@ public class TakingMultipleInputsfromKeyboard {
 		
 		System.out.println("Your name is : "+name);
 		
-		System.out.println("Enter Phone number:");
+		System.out.println("Enter your  age:");
 		int age=sc.nextInt();
 		
 		System.out.println("Your age is : "+age);

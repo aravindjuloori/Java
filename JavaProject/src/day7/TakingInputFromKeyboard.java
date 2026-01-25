@@ -8,24 +8,29 @@ public class TakingInputFromKeyboard {
 	
 		Scanner sc=new Scanner(System.in);
 		
-		/*//integer
-		 * System.out.println("Enter a number :"); int num=sc.nextInt();
+		//integer 
+		/*
+		 * System.out.println("Enter a number :"); 
+		 * int num=sc.nextInt();
 		 * System.out.println("Given number is :" +num);
-		 * 
 		 */
-		/*//enter decimal number
+		 
+		//enter decimal number
+		/*
 		 * System.out.println("Enter a Decimal number"); double num=sc.nextDouble();
 		 * 
 		 * System.out.println("Given decimal number is :" +num);
-		 * 
-		 * 
 		 */
+		  
+		 //String 
 		
-		System.out.println("Please enter city");
 		
-		String city=sc.next();
-		System.out.println("Your city is : "+city);
-		sc.close();
+		  System.out.println("Please enter city");
+		  
+		  String city=sc.next(); 
+		  System.out.println("Your city is : "+city);
+		  sc.close();
+		 
 
 	}
 
