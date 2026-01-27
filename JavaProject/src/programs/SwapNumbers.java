@@ -6,6 +6,7 @@ public class SwapNumbers {
 
 		int a=100 ,b=200;
 		
+		//Approach 1
 		// swapping of 2 numbers without using  3rd variable
 		/*
 		 * a=a+b; //a=300; 
@@ -18,13 +19,32 @@ public class SwapNumbers {
 		 */
 		
 		
-		//swapping values using temp variable
-		System.out.println("Before swapping: a = " + a + ", b = " + b);
+		//Approach 2 swapping values using temp variable
+		/*
+		 * System.out.println("Before swapping: a = " + a + ", b = " + b);
+		 * 
+		 * int temp=a; 
+		 * // temp=100;
+		 *  a=b; //a=200 
+		 *  b=temp; //100
+		 * System.out.println("After swapping: a = " + a + ", b = " + b);
+		 */
 		
-		int temp=a;    // temp=100;
-		 a=b;      //a=200
-		 b=temp;   //100
-			System.out.println("After swapping: a = " + a + ", b = " + b);
+		//Approach 3 -using * and / operators
+		/*
+		 * System.out.println("Before swapping: a = " + a + ", b = " + b); 
+		 * a=a*b;
+		 *  b=a/b;
+		 * a=a/b; 
+		 * System.out.println("After swapping: a = " + a + ", b = " + b);
+		 */
+		
+		//Approach 4-using bitwise operators
+		System.out.println("Before swapping: a = " + a + ", b = " + b);
+		a=a^b;
+		b=a^b;
+		a=a^b;
+		System.out.println("After swapping: a = " + a + ", b = " + b);
 	}
 
 }
