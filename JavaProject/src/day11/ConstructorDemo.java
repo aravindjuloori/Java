@@ -2,7 +2,8 @@ package day11;
 
 public class ConstructorDemo {
 	
-	int x,y;
+	int x;
+	int y;
 	
 	ConstructorDemo(){   //default Constructor
 		x=100;
@@ -21,8 +22,8 @@ public class ConstructorDemo {
 
 	public static void main(String[] args) {
 		
-		//ConstructorDemo cd=new ConstructorDemo();  //invoke default constructor
-		ConstructorDemo cd=new ConstructorDemo(100,200); //parameterized constructor
+		ConstructorDemo cd=new ConstructorDemo();  //invoke default constructor
+		//ConstructorDemo cd=new ConstructorDemo(100,200); //parameterized constructor
 		cd.sum();
 	}
 
