@@ -24,12 +24,11 @@ public class Account {
 	}
 
 	
-	
-	void setAccno(int accno) {
+	public void setAccno(int accno) {
 		this.accno=accno;
 	}
 	
-	int getAccno() {
+	public int getAccno() {
 		return accno;
 	}
 		

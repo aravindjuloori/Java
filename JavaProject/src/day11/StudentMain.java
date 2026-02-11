@@ -4,27 +4,29 @@ public class StudentMain {
 
 	public static void main(String[] args) {
 
-		// Student stu=new Student();
+		 //Student stu=new Student();
 
 		// 1. Store data using the object reference variable
 
 		/*
 		 * stu.sid=100; 
-		 * stu.sname="aravind"; 
+		 * stu.sname="Aravind"; 
 		 * stu.grad='A'; 
-		 * stu.printStudentData();
+		 * stu.printStudentdata();
 		 */
-
-		// 2. using the method local method
+		
+		//2.using the method specific variable
+		 
 		/*
-		 * stu.setStudentData(1001, "Aravind", 'A'); 
-		 * stu.printStudentData();
+		 * stu.setStudentdata(101, "Aravind",'A'); 
+		 * stu.printStudentdata();
 		 */
-
-		// 3. using constructor
-		Student stu = new Student(1001, "Aravind", 'A');
-		stu.printStudentData();
-
+		 
+		 //3.using constructor
+		 
+		Student st=new Student(101,"Aravind",'A');
+		st.printStudentdata();
+		
 	}
 
 }

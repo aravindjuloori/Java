@@ -1,4 +1,4 @@
-package day12;
+	package day12;
 
 public class Adder {
 
@@ -8,20 +8,26 @@ public class Adder {
 	void sum() { // 1
 		System.out.println(a + b);
 	}
+	
+	
 
-	void sum(int x, int y) { // 2
+	int sum(int x, int y) { // 2  no. of parameters
 
 		System.out.println(x + y);
+		
+		return x*y;
 	}
 
-	void sum(int x, double y) { // 3
+	double sum(int x, double y) { // 3
 
 		System.out.println(x + y);
+		return x*y;
 	}
 
 	void sum(double x, int y) { // 4
 
 		System.out.println(x + y);
+		
 	}
 
 	void sum(int a, int b, int c) {

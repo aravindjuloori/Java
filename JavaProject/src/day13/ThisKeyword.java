@@ -1,32 +1,45 @@
 package day13;
-
+//Global variables
 public class ThisKeyword {
 	
-	int x,y;
+	int x,y;   //Class variables/instance variables
 	
 	
+	//constructor
 	/*
-	 * ThisKeyword(int x,int y){ this.x=x; this.y=y;
-	 * 
-	 * }
+	 * ThisKeyword(int x,int y){ this.x=x; this.y=y; }
 	 */
+	 
 	
-	void setData(int x,int y) {
-		this.x=x;
-		this.y=y;
-	}
-	
-	void display() {
-		System.out.println(x);
-		System.out.println(y);
-	}
+	//Method
+	  void setData(int x,int y) {
+	  
+	   this.x=x; 
+	   this.y=y;
+	   
+	    }
+	  
+	  
+	 
+	  void display() { 
+		  System.out.println(x); 
+		  System.out.println(y); 
+		  
+	  }
 
 	public static void main(String[] args) {
 		
-		//ThisKeyword tk=new ThisKeyword(100,200);
-		ThisKeyword th=new ThisKeyword();
-		th.setData(100, 100);
-		th.display();
+		/*
+		 * ThisKeyword th=new ThisKeyword(100,200); th.display();
+		 */
+		
+		
+		   
+		  
+		  ThisKeyword th=new ThisKeyword();
+		  th.setData(100, 100);
+		  th.display();
+		 
 		
 		
 		
