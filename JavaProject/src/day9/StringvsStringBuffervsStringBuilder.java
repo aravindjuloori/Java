@@ -6,23 +6,25 @@ public class StringvsStringBuffervsStringBuilder {
 
 		//String-immutable
 		
-		/*
-		 * String s="welcome"; s.concat("to java"); System.out.println(s); //immutable
-		 * cannot change the original value of s
-		 */
+		
+		  String s="welcome"; 
+		  s.concat("to java"); 
+		  System.out.println(s);      //immutable cannot change the original value of s
+		  
+		 
 		
 		
 		//StringBuffer--mutable object
-		/*StringBuffer s=new StringBuffer("welcome");
-		s.append(" to java");
-		System.out.println(s); */ //muttable we can change the original value of s
+		StringBuffer s1=new StringBuffer("welcome");
+		s1.append(" to java");
+		System.out.println(s1);  //muttable we can change the original value of s
 	
 		
 		//StringBuilder-muttable object
 		
-		StringBuilder s=new StringBuilder("Welcome");
-		s.append(" to java");
-		System.out.println(s);  //muttable we can change the original value of s
+		StringBuilder s2=new StringBuilder("Welcome");
+		s2.append(" to java");
+		System.out.println(s2);  //muttable we can change the original value of s
 		
 	}
 

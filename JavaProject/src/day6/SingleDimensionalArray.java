@@ -12,7 +12,7 @@ public class SingleDimensionalArray {
 		 * 5.retriving multiple values from array
 		*/
 		
-		//Approach 1  -- fixed in size  , memory will be wasted if we not give values for all the 5 locations
+		//Approach 1  -- fixed in size ,memory will be wasted if we not give values for all the 5 locations
 		/*int a[]=new int[5];
 		a[0]=100;
 		a[1]=200;
@@ -31,7 +31,7 @@ public class SingleDimensionalArray {
 		
 		//Reading a value from array using index number
 		
-		//System.out.println(a[4]);
+		System.out.println("Value at the location: " +a[4]);
 		
 		//Reading multiple values from a array
 		//normal for loop

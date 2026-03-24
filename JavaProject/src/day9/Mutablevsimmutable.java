@@ -15,8 +15,10 @@ public class Mutablevsimmutable {
 		System.out.println(Arrays.toString(a));
 		
 		
-		//immutable 
+		
+		//immutable -- we cannot change 
 		String s=new String("welcome");
+		System.out.println(s);
 		String concatinatedString=s.concat(" to java");
 		System.out.println(concatinatedString);
 	}
