@@ -25,8 +25,7 @@ public class StringComparison {
 		 * 
 		 * 
 		 * System.out.println(s1==s2); // it will compare the objects
-		 * System.out.println(s1.equals(s2)); // it will be used to compare the value of
-		 * the objects
+		 * System.out.println(s1.equals(s2)); // it will be used to compare the value of the objects
 		 * 
 		 */
 			 

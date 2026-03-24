@@ -4,46 +4,41 @@ public class ReverseaString {
 
 	public static void main(String[] args) {
 		
-		//Approach 1 --length(),charAt()
+		//Approach 1- using the length() and CharAt() methods
 		
 		/*
 		 * String s="Welcome"; String rev="";
 		 * 
+		 * for(int i=s.length()-1;i>=0;i--) { 
+		 * rev=rev+s.charAt(i); 
+		 * }
 		 * 
-		 * for(int i=s.length()-1;i>=0;i--) {
-		 * 
-		 * rev=rev+s.charAt(i); }
-		 * 
-		 * System.out.println(rev);
-		 * 
+		 * System.out.println("Reverse value of a string is :" +rev);
 		 */
 		
-		//Approach 2  -- with out using the String methods
+		//Approach 2 -- Without using the string methods
 		/*
-		 * String s="Welcome"; 
-		 * String rev="";
-		 * 
-		 * char a[]=s.toCharArray();
-		 * 
-		 * for(int i=a.length-1;i>=0;i--) {
+		 * String s="Welcome";
+		 *  String rev="";
+		 *   char a[]=s.toCharArray(); 
+		 *   for(int i=a.length-1;i>=0;i--) {
 		 * 
 		 * rev=rev+a[i];
-		 *  } 
-		 *  System.out.println("Reverse of a string:"+rev);
+		 * 
+		 * } System.out.println("Reverse value of a string is :" +rev);
 		 */
 		
-		//Approach 3-using string buffer class
+		//Approach 3: Using the string Buffer class
 		
-		
-		  StringBuffer s=new StringBuffer("welcome");
-		  System.out.println("Reverse of a string is :"+s.reverse());
-		 
-		
-		//Approach 4-Using the Sting builder class
 		/*
-		 * StringBuilder s=new StringBuilder("welcome");
-		 * System.out.println("Reverse of a string is :" +s.reverse());
+		 * StringBuffer s=new StringBuffer("Welcome"); 
+		 * System.out.println(s.reverse());
 		 */
+		
+		//Approach 4:Using the String builder class
+		
+		StringBuilder s=new StringBuilder("Welcome");
+		System.out.println(s.reverse());
 	}
 	
 	

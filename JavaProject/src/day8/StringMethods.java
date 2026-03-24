@@ -15,9 +15,8 @@ public class StringMethods {
 		System.out.println(s.length());
 		System.out.println("Aravind Juloori".length());
 		
-		
-		//2.concat-Joining strings(At a time 2 strings can be combined)
-		
+		//2.concat-Joining strings(+ is used for concatinating strings numbers will add and strings will concatinate)
+		//(At a time 2 strings can be combined)
 		
 		String s1="Welcome";
 		String s2=" to java";
@@ -128,8 +127,6 @@ public class StringMethods {
 				String arr2[]=s.split(" ");
 				System.out.println(Arrays.toString(arr2));
 				
-				
-				
 
 				//Ex: 4
 				
@@ -140,7 +137,19 @@ public class StringMethods {
 				System.out.println(name.toLowerCase().contains("john"));//true
 				
 	
-		
+				
+				String a1="2";
+				String a2="3";
+				
+				int result = Integer.parseInt(a1) + Integer.parseInt(a2);
+
+				System.out.println(result); // Output: 5
+				
+				//11.indexOf()-  it returns the index value of the specified text in the string
+				
+				String txt = "Please locate where 'locate' occurs!";
+				System.out.println(txt.indexOf("locate"));
+						
 	}
 
 }
