@@ -18,6 +18,7 @@ public class ReadingAndWritingDataIntoArray {
 			a[i]=sc.nextInt();
 		}
 		
+		System.out.println("*****printing array elements*********");
 		System.out.println(Arrays.toString(a));
 		
 	}

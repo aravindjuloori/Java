@@ -10,12 +10,15 @@ public class SortingElementsInArray {
 		
 		System.out.println("***Before sorting the array******");
 		
-		/*
-		 * for(int value:a) { System.out.println(value); }
-		 
-		 */
 		
-		System.out.println(Arrays.toString(a));  //It is used to print all the strings in array 
+		/*
+		 * for(int value:a) { 
+		 * System.out.println(value); }
+		 */
+		 
+		 
+		
+	System.out.println(Arrays.toString(a));  //Arrays is a predefined class and toString() is a method It is used to print all the strings in array 
 		
 		Arrays.sort(a);
 		System.out.println("***After sorting the array******");

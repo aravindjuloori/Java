@@ -6,16 +6,15 @@ public class DuplicatesInArray {
 	
 		
 		int a[]= {10,20,10,40,20,10,30};
-		int num=10;
+		int searchElement=10;
 		int count=0;
 		
-		for(int value:a) {
-			if(value==num) {
+		for(int i=0;i<a.length;i++) {
+			if(a[i]==searchElement) {
 				count++;
 			}
 		}
 		System.out.println("Duplicates elements in array :" +count);
-		
 		
 		
 	}

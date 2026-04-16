@@ -34,16 +34,16 @@ public class TwoDimensionalArray {
 		
 		//Reading all rows and all columns
 		//normal for loop
-		for(int i=0;i<a.length;i++) {
-			
-			for(int j=0;j<a[i].length;j++) {
-				
-				System.out.print(a[i][j]+" ");
-			}
-			System.out.println();
-			
-			
-		}
+		/*
+		 * for(int i=0;i<a.length;i++) {
+		 * 
+		 * for(int j=0;j<a[i].length;j++) {
+		 * 
+		 * System.out.print(a[i][j]+" "); } System.out.println();
+		 * 
+		 * 
+		 * }
+		 */
 		
 		System.out.println("******************************************");
 		//enhanced for loop

@@ -7,22 +7,23 @@ public class LinearSearch {
 		
 		int a[]= {100,400,200,500,600};
 		
-		int searchElement=200;
+		int searchElement=500;
 		boolean status=false;
 		
 		for(int i=0;i<a.length;i++) {
-			System.out.println("*************");
-		if(a[i]==searchElement) {
-			System.out.println("element found");
+	//System.out.println("*************");
+			if(a[i]==searchElement) {
+				System.out.println("element found");
 			status=true;
-			break;
-		}
-			
+				break;
+			}
 		}
 		
-		if(status=false) {
-			System.out.println("Element not found");
-		}
+			if(status==false) {
+				System.out.println("Element not found");
+			}
+			
+		
 	
 		
 	}
