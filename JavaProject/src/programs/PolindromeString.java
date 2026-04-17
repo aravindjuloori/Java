@@ -6,12 +6,14 @@ public class PolindromeString {
 
 	public static void main(String[] args) {
 		
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the string value");
 		
-		String str=sc.next();
-		String org_str=str;
-		
+		  Scanner sc=new Scanner(System.in);
+		  System.out.println("Enter the string value");
+		  
+		  String str=sc.next(); 
+		  String org_str=str;
+		 
+//		String org_str="MADAM";
 		String rev="";
 		
 		for(int i=org_str.length()-1;i>=0;i--) {

@@ -7,7 +7,8 @@ public class ReverseaString {
 		//Approach 1- using the length() and CharAt() methods
 		
 		/*
-		 * String s="Welcome"; String rev="";
+		 * String s="Welcome"; 
+		 * String rev="";
 		 * 
 		 * for(int i=s.length()-1;i>=0;i--) { 
 		 * rev=rev+s.charAt(i); 

@@ -8,7 +8,7 @@ public class RemoveSpecialCharacters {
 		String s="@#!#! latimStringv 1222132313";
 		
 		String replacedText=s.replaceAll("[^a-zA-Z0-9]","");
-		System.out.println(replacedText);
+		System.out.println("Text after removing the junk values:" +replacedText);
 
 	}
 
