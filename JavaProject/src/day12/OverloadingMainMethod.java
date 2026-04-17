@@ -17,7 +17,7 @@ public class OverloadingMainMethod {
 		OverloadingMainMethod ov=new OverloadingMainMethod();
 		ov.main(100);
 		ov.main("aravind");
-		ov.main("Hello", "Aravind");
+		ov.main("Hello", " Aravind");
 	}
 
 }
