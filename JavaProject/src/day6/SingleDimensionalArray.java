@@ -3,17 +3,25 @@ package day6;
 public class SingleDimensionalArray {
 
 	public static void main(String[] args) {
-		// Array is a collection of elements of same data type or homogeneous data
-
+		// Array is a collection of elements of same data type or homogeneous data.We can store multiple values in single variable
+		
 		/*
-		 * 1.Declaring an array 2.add values in to array 3.finding the length of array
-		 * 4.retrieve a single value from array 5.retriving multiple values from array
+		 * 1.Declaring an array 
+		 * 2.add values in to array 
+		 * 3.finding the length of array
+		 * 4.retrieve a single value from array 
+		 * 5.retriving multiple values from array
 		 */
 
 		// Approach 1 -- fixed in size ,memory will be wasted if we not give values for
 		// all the 5 locations
 		/*
-		 * int a[]=new int[5]; a[0]=100; a[1]=200; a[2]=300; a[3]=400; a[4]=500;
+		 * int a[]=new int[5]; 
+		 * a[0]=100; 
+		 * a[1]=200; 
+		 * a[2]=300; 
+		 * a[3]=400; 
+		 * a[4]=500;
 		 */
 
 		// Approach 2 -size is not fixed ,no memory wastage
@@ -30,14 +38,15 @@ public class SingleDimensionalArray {
 
 		// Reading multiple values from a array
 		// normal for loop
-
+		
+		System.out.println("*********Normal for Loop***************");
 		for (int i = 0; i < a.length; i++) { // a.length=5 i<5 or i<=4 or i<a.length or i<=a.length-1
 
 			System.out.println(a[i]);
 
 		}
 
-		System.out.println("************************");
+		System.out.println("*********Enhanced for Loop***************");
 		// Enhanced loop or for each loop
 
 		for (int num : a) {

@@ -39,13 +39,13 @@ public class TwoDimensionalArray {
 		 * 
 		 * for(int j=0;j<a[i].length;j++) {
 		 * 
-		 * System.out.print(a[i][j]+" "); } System.out.println();
-		 * 
-		 * 
+		 * System.out.print(a[i][j]+" ");
+		 *  } 
+		 *  System.out.println();
 		 * }
 		 */
 		
-		System.out.println("******************************************");
+		System.out.println("***************Enhanced for loop************************");
 		//enhanced for loop
 		
 		for(int arr[]:a) {

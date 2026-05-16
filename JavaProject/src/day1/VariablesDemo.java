@@ -11,10 +11,10 @@ public class VariablesDemo {
 		
 		int a1=5;  //Declaration+ assigning value
 		
-		System.out.println(a1);
+		System.out.println(a1); //5
 		
 		a1=200;
-		System.out.println(a1);
+		System.out.println(a1); //200
 		
 		//Different approaches to create a variables
 		
@@ -22,7 +22,6 @@ public class VariablesDemo {
 		/*
 		 * int a=100; int b=200; int c=300;
 		 */
-		
 		
 		
 		//Approach 2-- if all the variables belongs to same data types
