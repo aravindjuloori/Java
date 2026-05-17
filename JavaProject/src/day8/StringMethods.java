@@ -44,7 +44,7 @@ public class StringMethods {
 		System.out.println("*********CharAt************");
 		String st = "Welcome";
 		System.out.println(st.charAt(0)); // W
-		System.out.println(st.charAt(5)); // e
+		System.out.println(st.charAt(5)); // m
 
 		// 5.contains()--Checks particular string is present in the main string or not.
 		// It returns the boolean value(True/False) and case sensitive
@@ -76,6 +76,10 @@ public class StringMethods {
 
 		// 8.substring() --It will extract substring from main string
 		System.out.println("*********substring************");
+		
+		//Starting index will start from 0
+		//Ending index will start from 1
+		
 		s = "Selenium";
 
 		System.out.println(s.substring(0, 3)); // sel
@@ -116,7 +120,7 @@ public class StringMethods {
 		System.out.println(arr1[0]);
 		System.out.println(arr1[1]);
 
-		// * % & ^ () -- we cannot use this as delimiter
+		// %  ^ & * () -- we cannot use this as delimiter
 
 		// Ex3:
 		s = "abc 123 xyz";

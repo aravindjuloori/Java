@@ -28,7 +28,7 @@ public class PolindromeNumber {
 		{
 			System.out.println(org_num+"   not polindrome number");
 		}
-		//System.out.println("Reverse of a number is: "+rev);
+		
 
 	}
 

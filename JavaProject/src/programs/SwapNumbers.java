@@ -30,6 +30,7 @@ public class SwapNumbers {
 		 * System.out.println("After swapping: a = " + a + ", b = " + b);
 		 */
 		
+		
 		//Approach 3 -using * and / operators
 		/*
 		 * System.out.println("Before swapping: a = " + a + ", b = " + b); 
@@ -38,6 +39,7 @@ public class SwapNumbers {
 		 * a=a/b; 
 		 * System.out.println("After swapping: a = " + a + ", b = " + b);
 		 */
+		
 		
 		//Approach 4-using bitwise operators
 		System.out.println("Before swapping: a = " + a + ", b = " + b);

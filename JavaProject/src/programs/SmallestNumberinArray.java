@@ -11,7 +11,7 @@ public class SmallestNumberinArray {
 		int smallestnumber=num[0];
 		
 		int length=num.length;
-		//System.out.println(length);
+		System.out.println(length);
 		
 		for(int n:num) {
 			if(smallestnumber>n) {
@@ -23,14 +23,14 @@ public class SmallestNumberinArray {
 		
 		
 		int num1[]={20,22,18,35,48,26,70,1,86};
-		int biggestNumer=num1[0];
+		int biggestnumber=num1[0];
 		
 		for(int n1:num1) {
-			if(biggestNumer<n1) {
-				biggestNumer=n1;
+			if(biggestnumber<n1) {
+				biggestnumber=n1;
 			}
 		}
-		System.out.println("Biggest number in the array is :" +biggestNumer);
+		System.out.println("Biggest number in the array is :" +biggestnumber);
 
 	}
 	
