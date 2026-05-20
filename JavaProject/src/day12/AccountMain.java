@@ -14,6 +14,7 @@ public class AccountMain {
 		System.out.println(act.getName());
 		System.out.println(act.getAmount());
 		
+	
 		}
 
 }

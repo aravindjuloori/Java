@@ -6,12 +6,13 @@ public class BoxMain {
 		
 		
 		//Box b=new Box(); //1
-		 //Box b=new Box(10.5,15.5,5.0); //2
 		
-		
+		  //Box b=new Box(10.5,15.5,5.0); //2
+		  
+		  
 		  Box b=new Box(10.5); 
 		 
-		 		System.out.println(b.volume());
+		System.out.println(b.volume());
 	}
 
 }

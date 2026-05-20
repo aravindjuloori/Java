@@ -12,21 +12,19 @@ public class Box {
 		
 	}
 	
-	Box(double w,double h,double d){  //2
+	Box(double w,double h,double d){
 		width=w;
 		height=h;
 		deepth=d;
 	}
 	
-	Box(double len){   //3
-		
+	Box(double len){
 		width=height=deepth=len;
 	}
 	
-	double volume() {
+	public double volume() {
+		return width*height*deepth;
 		
-		return (width*height*deepth);
 	}
-
 	
 }
