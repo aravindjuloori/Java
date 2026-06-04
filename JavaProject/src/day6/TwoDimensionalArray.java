@@ -5,6 +5,7 @@ public class TwoDimensionalArray {
 	public static void main(String[] args) {
 		
 		//Declaring an Array
+		
 		//Approach 1-size of array is fixed and no plans to increase
 		int a[][]=new int[3][2];
 		
@@ -17,8 +18,7 @@ public class TwoDimensionalArray {
 		a[2][0]=500;
 		a[2][1]=600;
 		
-		
-		//Approach 1
+		//Approach 2 -- size is not fixed and no wastage of memory
 		
 		/*
 		 * int a1[][]= { {100,200}, {300,400}, {500,600} };

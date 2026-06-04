@@ -5,29 +5,31 @@ public class EvenOddNumbersinArray {
 	public static void main(String[] args) {
 		
 		int a[]= {1,2,3,4,5,6};
-		int evenCount = 0;
-        int oddCount = 0;
-        
-        System.out.println("Even numbers in an array");
-        
-		for(int number:a) {
-			if(number%2==0) {
-				System.out.println(number);
-				evenCount++;
+		
+		int even_count=0;
+		int odd_count=0;
+		
+		 System.out.println("Even numbers in an array");
+		
+		for(int num:a) {
+			if(num%2==0) {
+				System.out.println(num);
+				even_count++;
 			}
 		}
 		
-		System.out.println("Odd Numbers in an arary");
-		
-		for(int number:a) {
-			if(number%2!=0) {
-				System.out.println(number);
-				oddCount++;
+		System.out.println("Odd numbers in an array");
+		for(int num:a) {
+			if(num%2!=0) {
+				System.out.println(num);
+				odd_count++;
 			}
 		}
-		 System.out.println("Even = " + evenCount);
-	        System.out.println("Odd = " + oddCount);
-
+		
+		 System.out.println("Even = " + even_count);
+	        System.out.println("Odd = " + odd_count);
+		
 	}
+	
 }
 

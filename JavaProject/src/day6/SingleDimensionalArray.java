@@ -3,9 +3,11 @@ package day6;
 public class SingleDimensionalArray {
 
 	public static void main(String[] args) {
-		// Array is a collection of elements of same data type or homogeneous data.We can store multiple values in single variable
+		//Array is a collection of elements of same data type(homogeneous data)
+		//We can store multiple values in single variable
 		
-		/*
+		
+		/* 
 		 * 1.Declaring an array 
 		 * 2.add values in to array 
 		 * 3.finding the length of array
@@ -13,8 +15,8 @@ public class SingleDimensionalArray {
 		 * 5.retriving multiple values from array
 		 */
 
-		// Approach 1 -- fixed in size ,memory will be wasted if we not give values for
-		// all the 5 locations
+		// Approach 1 -- fixed in size ,memory will be wasted if we not give values for all the 5 locations
+		
 		/*
 		 * int a[]=new int[5]; 
 		 * a[0]=100; 
@@ -29,12 +31,11 @@ public class SingleDimensionalArray {
 		// int a[]= {};
 
 		// find length of an array
-
 		System.out.println("Length of an array: " + a.length);
 
 		// Reading a value from array using index number
 
-//		System.out.println("Value at the location: " +a[4]);
+		//System.out.println("Value at the location: " +a[4]);
 
 		// Reading multiple values from a array
 		// normal for loop
