@@ -12,6 +12,7 @@ public class TypeCastingConcept {
 		
 		//upcasting --Automatic -- smaller to larger
 		
+		
 		/*
 		 * int intvalue=100;
 		 * 
@@ -20,26 +21,45 @@ public class TypeCastingConcept {
 		 * System.out.println(longvalue);
 		 */
 		
+		
 		/*
 		 * float floatvalue=10.5f; 
+		 * 
 		 * double doublevalue=floatvalue;
+		 * 
 		 * System.out.println(doublevalue);
 		 */
+		 
 		
 		//Downcasting--manually-larger to smaller
 		
+		/*
+		 * long longValue=100000; 
+		 * int intvalue=(int)longValue;
+		 */
 		
-		//ex1:
-		int i=100;
-		double d=i;
-		System.out.println(d);
+		/*
+		 * double doubleValue=125.5534234324; 
+		 * float floatvalue=(float)doubleValue;
+		 * System.out.println(floatvalue);
+		 */
 		
 		
-		//ex2:
-		double d1=10.5;
-		int i1=(int)d1;
-		
-		System.out.println(i1);
+		  //ex1: 
+			/*
+			 * int i=100; 
+			 * double d=i; 
+			 * System.out.println(d);
+			 */
+		  
+		  
+			
+			  //ex2:
+			  double d1=10.5; 
+			  int i1=(int)d1;
+			  
+			  System.out.println(i1);
+			 
 		
 		
 	}

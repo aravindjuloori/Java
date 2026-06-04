@@ -21,16 +21,28 @@ public class TypeCastingObjects {
 		
 		/*
 		 * Child c=new Child(); 
-		 * System.out.println(c.name); 
+		 * System.out.println(c.name);   //parent
 		 * c.m1();
-		 * System.out.println(c.id); 
+		 * System.out.println(c.id);  //child
 		 * c.m2();
 		 */
 		
-		Parent p=new Child();   //upcasting
-		System.out.println(p.name);
-		p.m1();
-	
+		
+		/*
+		 * Parent p=new Child(); //upcasting 
+		 * System.out.println(p.name); //Here we cannot access the child class variables and methods
+		 *  p.m1();
+		 */
+		 
+		
+		Parent p=new Parent();  //Downcasting 
+		Child c=(Child)p;
+		
+		System.out.println(c.name);
+		System.out.println(c.id);
+		c.m1();
+		c.m2();
+		 
 
 	}
 
