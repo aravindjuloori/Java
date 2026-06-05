@@ -15,7 +15,7 @@ public class StringMethods {
 		System.out.println(s.length());
 		System.out.println("Aravind Juloori".length());
 
-		// 2.concat-Joining strings(+ is used for concatinating strings numbers will add
+		// 2.concat-Joining strings(+) is used for concatinating strings numbers will add
 		// and strings will concatinate)
 		// (At a time 2 strings can be combined)
 		System.out.println("****concat predefined method***********");
@@ -32,7 +32,8 @@ public class StringMethods {
 		System.out.println("Welcome" + " to java"); // Welcome to java
 		System.out.println("Welcome".concat(" to Java")); // welcome to java
 
-		// 3.trim()---It will remove the spaces left and right of string
+		//3.trim()---It will remove the spaces left and right of string
+		
 		System.out.println("****Trim predefined method***********");
 		String str = "   Welcome   ";
 		System.out.println(str); // print string along with spaces
@@ -40,7 +41,8 @@ public class StringMethods {
 		System.out.println(str.trim());// it will print the string by trimming the spaces
 		System.out.println("After trimming: " + str.trim().length()); // gets the length of the string with spaces
 
-		// 4.CharAt()-- It returns the character from a string based on the index value
+		// 4.CharAt()-- It returns the character from a string based on the index value specified
+		
 		System.out.println("*********CharAt************");
 		String st = "Welcome";
 		System.out.println(st.charAt(0)); // W
@@ -48,6 +50,7 @@ public class StringMethods {
 
 		// 5.contains()--Checks particular string is present in the main string or not.
 		// It returns the boolean value(True/False) and case sensitive
+		
 		System.out.println("*********contains************");
 		String str1 = "welcome";
 		System.out.println(str1.contains("come")); // True

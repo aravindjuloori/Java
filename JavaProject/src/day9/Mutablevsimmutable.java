@@ -18,11 +18,11 @@ public class Mutablevsimmutable {
 		
 		//immutable -- we cannot change 
 		String s=new String("welcome");
-		System.out.println(s);
+		System.out.println(s);  //welcome
 		s.concat("to java");
-		System.out.println(s);
-		String concatinatedString=s.concat(" to java");
-		System.out.println(concatinatedString);
+		System.out.println(s); //welcome
+		String concatinatedString=s.concat(" to java"); 
+		System.out.println(concatinatedString); //welcome to java
 	}
 
 }
