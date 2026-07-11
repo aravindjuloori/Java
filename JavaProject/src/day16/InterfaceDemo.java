@@ -1,18 +1,19 @@
 package day16;
 
 interface Shape{
+	int length=10;  //final and Static
+	int width=20;  //final and static
 	
-	int length=10;   //final & static
-	int width=20;	//final & static
 	
-	void circle();  //Abstract method
+	void circle(); //Abstract methods
 	
-	default void square() {   	//default method
-		System.out.println("This is a square");
+	default void square() {
+		System.out.println("This square is a default method");
 	}
 	
-	static void rectangle() {  	 //static method 
-		System.out.println("this is rectangle");
+	static void rectangle() {
+		
+		System.out.println("This rectangle is a static method");
 	}
 	
 }
