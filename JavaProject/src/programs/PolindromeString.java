@@ -28,8 +28,6 @@ public class PolindromeString {
 		else {
 			System.out.println(org_str+"     its not a polindrome string");
 		}
-		
-		
 
 	}
 

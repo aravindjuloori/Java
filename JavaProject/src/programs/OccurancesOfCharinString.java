@@ -5,7 +5,7 @@ public class OccurancesOfCharinString {
 	public static void main(String[] args) {
 	
 		String str="abcaabcaabbcc";
-		//String s="";
+		
 		int a_count=0;
 		int b_count=0;
 		int c_count=0;
